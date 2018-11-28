@@ -1,0 +1,66 @@
+html {
+	box-sizing:border-box;
+	background:rgb(106, 161, 208);
+}
+
+*, *::before, *::after {
+	box-sizing:inherit;
+}
+
+body {
+	display:flex;
+	font-family:Helvetica, Arial, sans-serif;
+}
+
+fieldset {
+	border:0;
+	display:flex;
+}
+
+label {
+	color:#fff;
+	font-size:9px;
+	font-style:bolder;
+	margin-bottom:4px;
+}
+
+input, textarea, select {
+	background:rgb(106, 161, 208);
+	border-style:solid;
+	border-color:#fff;
+	border-width:2px;
+	width:250px;
+	color:#fff;
+	padding:8px;
+}
+
+textarea {
+	height:115px;
+}
+
+input:focus {
+	border-color:rgb(60, 108, 151);
+	outline-style:none;
+	box-shadow:none;
+}
+
+::placeholder {
+	color:rgba(0, 0, 0, .5);
+	font-style:italic;
+}
+
+select {
+	color:#fff;
+}
+
+select:focus {
+	border-color:rgb(60, 108, 151);
+	outline-style:none;
+	box-shadow:none;
+}
+
+textarea:focus {
+	border-color:rgb(60, 108, 151);
+	outline-style:none;
+	box-shadow:none;
+}
